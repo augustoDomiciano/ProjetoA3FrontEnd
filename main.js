@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
     }
       else if (isNaN(quilometragemValue) || quilometragemValue === "") {
       console.log("failure");
-      msg2.innerHTML = "Quilometragem deve ser um número válido.";
+      msg2.innerHTML = "Quilometragem deve ser um número.";
       }
       else {
       console.log("success");
